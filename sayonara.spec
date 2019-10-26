@@ -52,7 +52,7 @@ music players.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{name}-player
+%setup -q -n %{name}-player-%{version}-stable5
 
 %build
 %cmake
