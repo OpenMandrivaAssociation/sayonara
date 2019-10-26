@@ -39,7 +39,7 @@ music players.
 %files
 %doc MANUAL README.txt
 %{_bindir}/%{name}
-%{_libdir}/%{name}/
+#{_libdir}/%{name}/
 %{_datadir}/%{name}/
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/appdata/%{name}.appdata.xml
