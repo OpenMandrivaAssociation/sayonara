@@ -38,16 +38,16 @@ use and therefore it should be able to compete with the most popular
 music players.
 
 %files
-%doc MANUAL README.txt
+%doc MANUAL README.md
 %{_bindir}/%{name}
 #{_libdir}/%{name}/
 %{_datadir}/%{name}/
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/appdata/%{name}.appdata.xml
-%{_datadir}/pixmaps/%{name}.png
-%{_iconsdir}/%{name}.png
-%{_iconsdir}/hicolor/*/apps/%{name}.png
-%{_iconsdir}/hicolor/*/apps/%{name}.xpm
+#{_datadir}/applications/%{name}.desktop
+#{_datadir}/appdata/%{name}.appdata.xml
+#{_datadir}/pixmaps/%{name}.png
+#{_iconsdir}/%{name}.png
+#{_iconsdir}/hicolor/*/apps/%{name}.png
+#{_iconsdir}/hicolor/*/apps/%{name}.xpm
 %{_mandir}/man1/%{name}.1.*
 
 #----------------------------------------------------------------------------
