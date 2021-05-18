@@ -40,15 +40,15 @@ music players.
 %files
 %doc MANUAL README.md
 %{_bindir}/%{name}
-#{_libdir}/%{name}/
+%{_bindir}/sayonara-ctl
+%{_bindir}/sayonara-query
 %{_datadir}/%{name}/
-#{_datadir}/applications/%{name}.desktop
-#{_datadir}/appdata/%{name}.appdata.xml
-#{_datadir}/pixmaps/%{name}.png
-#{_iconsdir}/%{name}.png
-#{_iconsdir}/hicolor/*/apps/%{name}.png
-#{_iconsdir}/hicolor/*/apps/%{name}.xpm
+%{_datadir}/applications/com.sayonara-player.Sayonara.desktop
+%{_iconsdir}/hicolor/*x*/apps/sayonara.png
 %{_mandir}/man1/%{name}.1.*
+%{_mandir}/man1/sayonara-ctl.1.*
+%{_mandir}/man1/sayonara-query.1.*
+%{_datadir}/metainfo/sayonara.appdata.xml
 
 #----------------------------------------------------------------------------
 
