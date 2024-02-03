@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		http://sayonara-player.com
-Source0:	https://gitlab.com/luciocarreras/sayonara-player/-/archive/%{version}-stable1/sayonara-player-%{version}-stable1.tar.bz2
+Source0:	https://gitlab.com/luciocarreras/sayonara-player/-/archive/%{version}-stable1/sayonara-player-%{version}-stable1-src.tar.bz2
 BuildRequires:	cmake
 BuildRequires:  qmake5
 BuildRequires:	qt5-linguist-tools
@@ -53,7 +53,7 @@ music players.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{name}-player-%{version}-stable1
+%setup -q -n %{name}-player-%{version}-stable1-src
 
 %build
 %cmake
