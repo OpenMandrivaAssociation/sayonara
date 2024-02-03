@@ -2,8 +2,8 @@
 
 Summary:	A lightweight Qt Audio player
 Name:		sayonara
-Version:	1.7.0
-Release:	2
+Version:	1.9.0
+Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		http://sayonara-player.com
