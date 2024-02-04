@@ -2,8 +2,8 @@
 
 Summary:	A lightweight Qt Audio player
 Name:		sayonara
-Version:	1.7.0
-Release:	2
+Version:	1.9.0
+Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		http://sayonara-player.com
@@ -23,6 +23,7 @@ BuildRequires:	pkgconfig(Qt5Help)
 BuildRequires:	pkgconfig(Qt5Network)
 BuildRequires:	pkgconfig(Qt5Sql)
 BuildRequires:  pkgconfig(Qt5Svg)
+BuildRequires:  pkgconfig(Qt5Test)
 BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	pkgconfig(Qt5Xml)
 BuildRequires:	pkgconfig(libnotify)
@@ -43,12 +44,12 @@ music players.
 %{_bindir}/sayonara-ctl
 %{_bindir}/sayonara-query
 %{_datadir}/%{name}/
+%{_datadir}/metainfo/com.sayonara-player.Sayonara.appdata.xml
 %{_datadir}/applications/com.sayonara-player.Sayonara.desktop
 %{_iconsdir}/hicolor/*x*/apps/sayonara.png
 %{_mandir}/man1/%{name}.1.*
 %{_mandir}/man1/sayonara-ctl.1.*
 %{_mandir}/man1/sayonara-query.1.*
-%{_datadir}/metainfo/sayonara.appdata.xml
 
 #----------------------------------------------------------------------------
 
