@@ -49,7 +49,7 @@ music players.
 %{_mandir}/man1/%{name}.1.*
 %{_mandir}/man1/sayonara-ctl.1.*
 %{_mandir}/man1/sayonara-query.1.*
-%{_datadir}/metainfo/sayonara.appdata.xml
+#{_datadir}/metainfo/sayonara.appdata.xml
 
 #----------------------------------------------------------------------------
 
