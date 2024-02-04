@@ -57,12 +57,10 @@ music players.
 %setup -q -n %{name}-player-%{version}-stable1
 
 %build
-#cd src
 %cmake
 %make_build
 
 %install
-#cd src
 %make_install -C build
 
 # remove menu dir, because it's not necessary
