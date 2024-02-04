@@ -44,12 +44,12 @@ music players.
 %{_bindir}/sayonara-ctl
 %{_bindir}/sayonara-query
 %{_datadir}/%{name}/
+%{_datadir}/metainfo/com.sayonara-player.Sayonara.appdata.xml
 %{_datadir}/applications/com.sayonara-player.Sayonara.desktop
 %{_iconsdir}/hicolor/*x*/apps/sayonara.png
 %{_mandir}/man1/%{name}.1.*
 %{_mandir}/man1/sayonara-ctl.1.*
 %{_mandir}/man1/sayonara-query.1.*
-#{_datadir}/metainfo/sayonara.appdata.xml
 
 #----------------------------------------------------------------------------
 
