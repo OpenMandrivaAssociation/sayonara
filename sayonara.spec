@@ -2,11 +2,11 @@
 
 Summary:	A lightweight Qt Audio player
 Name:		sayonara
-Version:	1.9.0
+Version:	1.10.0
 Release:	1
 License:	GPLv3+
 Group:		Sound
-Url:		http://sayonara-player.com
+Url:		https://sayonara-player.com
 Source0:	https://gitlab.com/luciocarreras/sayonara-player/-/archive/%{version}-stable1/sayonara-player-%{version}-stable1.tar.bz2
 BuildRequires:	cmake
 BuildRequires:  qmake5
