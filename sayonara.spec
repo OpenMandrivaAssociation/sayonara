@@ -2,12 +2,15 @@
 
 Summary:	A lightweight Qt Audio player
 Name:		sayonara
-Version:	1.11.0
-Release:	2
+Version:	1.12.0
+Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		https://sayonara-player.com
 Source0:	https://gitlab.com/luciocarreras/sayonara-player/-/archive/%{version}-stable1/sayonara-player-%{version}-stable1.tar.gz
+
+BuildRequires:	appstream-util
+BuildRequires:	make
 BuildRequires:	cmake
 BuildRequires:  qmake5
 BuildRequires:	qt5-linguist-tools
@@ -30,6 +33,10 @@ BuildRequires:	pkgconfig(libnotify)
 BuildRequires:	pkgconfig(taglib)
 BuildRequires:	pkgconfig(zlib)
 Requires:	qt5-database-plugin-sqlite
+Requires:	%{_lib}qt5svg5
+Requires:	python%{pyver}dist(pydbus)
+Requires:	hicolor-icon-theme
+Requires:	gstreamer1.0-plugins-bad
 
 %description
 Sayonara is a small, clear, not yet platform-independent music player.
@@ -54,7 +61,7 @@ music players.
 #----------------------------------------------------------------------------
 
 %prep
-%setup -q -n %{name}-player-%{version}-stable1
+%autosetup -n %{name}-player-%{version}-stable1 -p1
 
 %build
 %cmake
